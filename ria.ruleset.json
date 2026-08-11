@@ -1,0 +1,15 @@
+{
+  "name": "RIA Ruleset",
+  "description": "Risk Intelligence Agent analyzer ruleset",
+  "rules": [
+    { "id": "AA0008", "action": "Error" },
+    { "id": "AA0021", "action": "Error" },
+    { "id": "AA0072", "action": "Error" },
+    { "id": "AA0073", "action": "Error" },
+    { "id": "AA0137", "action": "Warning" },
+    { "id": "AA0139", "action": "Warning" },
+    { "id": "AA0205", "action": "Warning" },
+    { "id": "AA0206", "action": "Warning" },
+    { "id": "AA0470", "action": "Warning" }
+  ]
+}

@@ -1,0 +1,51 @@
+/// <summary>Read-only access for executives and dashboard consumers.</summary>
+permissionset 50103 "RIA ReadOnly"
+{
+    Assignable = true;
+    Caption = 'RIA - Read Only';
+
+    Permissions =
+        tabledata "RIA Alert Evidence" = R,
+        tabledata "RIA Compliance Mapping" = R,
+        tabledata "RIA Control Catalogue" = R,
+        tabledata "RIA Cue" = R,
+        tabledata "RIA Investigation Case" = R,
+        tabledata "RIA Notification Setup" = R,
+        tabledata "RIA Remediation Action" = R,
+        tabledata "RIA Risk Alert" = R,
+        tabledata "RIA Risk Profile" = R,
+        tabledata "RIA Risk Setup" = R,
+        tabledata "RIA Threshold Setup" = R,
+        page "RIA Activities" = X,
+        page "RIA Alert API" = X,
+        page "RIA Alert Evidence FactBox" = X,
+        page "RIA Audit Evidence Center" = X,
+        page "RIA Case Alerts Sub" = X,
+        page "RIA Compliance Mapping" = X,
+        page "RIA Compliance Monitoring" = X,
+        page "RIA Control Card" = X,
+        page "RIA Control Catalogue" = X,
+        page "RIA Copilot" = X,
+        page "RIA Customer Risk Profiles" = X,
+        page "RIA Exposure Analytics" = X,
+        page "RIA Financial Controls" = X,
+        page "RIA Fraud Analytics" = X,
+        page "RIA Headline" = X,
+        page "RIA Inventory Intelligence" = X,
+        page "RIA Investigation Case Card" = X,
+        page "RIA Notification Setup" = X,
+        page "RIA Open Cases" = X,
+        page "RIA Procurement Risk" = X,
+        page "RIA Remediation Tracker" = X,
+        page "RIA Resolution Dialog" = X,
+        page "RIA Revenue Assurance" = X,
+        page "RIA Risk Alert Card" = X,
+        page "RIA Risk Alerts" = X,
+        page "RIA Risk Command Center" = X,
+        page "RIA Risk Setup" = X,
+        page "RIA Risk Trends" = X,
+        page "RIA Threshold Setup" = X,
+        page "RIA Vendor Risk Profiles" = X,
+        query "RIA Alerts by Severity" = X,
+        query "RIA Open Cases by Owner" = X;
+}
