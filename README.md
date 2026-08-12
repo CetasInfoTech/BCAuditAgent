@@ -1,6 +1,6 @@
 # Risk Intelligence Agent (RIA) for Microsoft Dynamics 365 Business Central
 
-Continuous audit & compliance intelligence agent by Cetas Technology.
+Continuous audit & compliance intelligence agent.
 
 ## Repos in this package
 - `ria-app/` — the production app (compile and ship this).
