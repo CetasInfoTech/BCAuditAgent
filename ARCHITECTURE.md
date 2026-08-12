@@ -1,6 +1,6 @@
 # Risk Intelligence Agent (RIA) — Solution Architecture & Build Report
 
-**Publisher:** Cetas Technology  **Target:** Microsoft Dynamics 365 Business Central 26.x (SaaS)
+**Publisher:** Cetas  **Target:** Microsoft Dynamics 365 Business Central 26.x (SaaS)
 **App ID:** a3f1c8e2-7b94-4d61-9e02-1f7a6c5d8b40  **Object range:** 50100–50299
 
 ---
